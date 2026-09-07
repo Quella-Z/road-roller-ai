@@ -1,0 +1,6 @@
+# PyTorch CUDA 12.1 runtime (version pinned).
+# Installed against the official PyTorch CUDA 12.1 wheel index.
+# Requires an NVIDIA GPU with driver >= 527.41.
+--index-url https://download.pytorch.org/whl/cu121
+torch==2.3.1
+torchvision==0.18.1

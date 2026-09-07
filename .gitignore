@@ -1,0 +1,50 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Model weights and cache files (downloaded automatically by Ultralytics at first run)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Ultralytics / EasyOCR runtime caches
+runs/
+datasets/
+ultralytics.egg-info/
+
+# Generated outputs (videos, reports, QA images)
+output/
+Videos/
+ocr_debug/
+*.xlsx
+*.csv
+*.mp4
+*.avi
+*.mov
+
+# Release artifacts
+dist/
+build/
+release/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# IDE / OS
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store

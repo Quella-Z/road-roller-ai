@@ -1,0 +1,5 @@
+# PyTorch CPU runtime (version pinned).
+# Installed against the official PyTorch CPU wheel index.
+--index-url https://download.pytorch.org/whl/cpu
+torch==2.3.1
+torchvision==0.18.1

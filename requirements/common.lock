@@ -1,0 +1,8 @@
+# Shared application dependencies (version pinned).
+# Installed AFTER the PyTorch runtime (requirements/cpu.lock or requirements/gpu.lock).
+numpy==1.26.4
+scipy==1.11.4
+opencv-python==4.10.0.84
+ultralytics==8.3.94
+easyocr==1.7.2
+openpyxl==3.1.5
